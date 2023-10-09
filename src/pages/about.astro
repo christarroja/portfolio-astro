@@ -12,48 +12,60 @@ import Hero from '../components/Hero.astro';
 				title="About"
 				tagline="Thanks for stopping by. Read below to learn more about myself and my background."
 			>
-				<img
+				<!-- <img
 					width="1553"
 					height="873"
 					src="/assets/at-work.jpg"
-					alt="Jeanine White at work with a colleague"
-				/>
+					alt="Chris Tarroja at work"
+				/> -->
 			</Hero>
 
 			<section>
 				<h2 class="section-title">Background</h2>
 				<div class="content">
-					<p>
-						Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy.
-						Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl
-						condimentum id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu
-						odio ut sem nulla pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum
-						dui faucibus in ornare.
-					</p>
-					<p>
-						Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis
-						natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl
-						condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel
-						quam elementum pulvinar etiam non.
-					</p>
-					<p>
-						Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet
-						eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra.
-						Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl
-						pretium fusce.
-					</p>
+					<p>My journey in the world of technology and creativity has spanned several roles, each contributing to a rich and diverse skill set.</p>
+					<p>I began my career as a Web Data Analyst, specializing in data mining techniques to extract e-commerce product data from prominent US-based websites. I excelled in precision and accuracy while extracting product attributes, ensuring real-time access to critical market information.</p>
+					<p>My next chapter led me to the role of a Web & Design Specialist. During this period, I created visually captivating and user-friendly WordPress websites, managed server setups, and optimized websites for performance and security. My expertise extended to multimedia content preparation and proactive website maintenance.</p>
+					<p>In addition to my professional roles, I've ventured into freelance work, building custom computer systems, optimizing PC performance, and troubleshooting common Windows issues. My love for PC hardware has driven me to offer cost-effective recommendations for hardware upgrades, ensuring optimal performance within budget constraints.</p>
+					<p>For nearly eight years, I thrived in the role of a Communications Specialist, where I honed my skill in crafting engaging content, expanding social media reach, and optimizing digital communication channels. I had the privilege of working for a thriving non-profit organization, where the supportive environment and rewarding experiences fueled my passion for the role. It was during this time that the COVID-19 pandemic reshaped our world, prompting me to pivot towards the digital space.</p>
+					<p>In response to the 2020 pandemic's limitations, I immersed myself in learning livestreaming techniques and delved into video production and social media management. These skills became invaluable tools as we adapted to the new normal of virtual events and online engagement. Over the course of two years, I became adept at harnessing the power of digital media to connect and communicate effectively.</p>
+					<p>My career path has also led me back to web development. As an Associate Software Engineer, I specialize in developing responsive web pages, implementing state management, and ensuring seamless deployment. My proficiency extends to managing website content, collaborating on version control systems, and deploying web applications.</p>
+					<p>My diverse experiences and skills reflect my commitment to innovation, adaptability, and delivering results. I am dedicated to the world of web development, where my technical acumen and creative mindset continue to thrive and evolve.</p>
 				</div>
 			</section>
 			<section>
-				<h2 class="section-title">Education</h2>
+				<h2 class="section-title">Experience</h2>
 				<div class="content">
-					<p>Corporis voluptates tenetur laudantium.</p>
+					<p>Associate Web Developer, Getaka Labs Corp. (March 2022 — Present)</p>
+					<p>Communications Specialist, CCBC, Inc. (Nov. 2014 — March 2022)</p>
+					<p>Web & Design Specialist, One Document Corp. (February 2014 — Sept. 2014)</p>
+					<p>IT Hardware Specialist, Freelance (June 2011 — Present)</p>
+					<p>Web Data Analyst, LWS Media LLC (August 2010 — May 2011)</p>
 				</div>
 			</section>
 			<section>
-				<h2 class="section-title">Skills</h2>
+				<h2 class="section-title">Education & Certification</h2>
 				<div class="content">
-					<p>officia unde omnis</p>
+					<p>Bachelor of Science in Computer Science</p>
+					<p><i>Informatics International College, Diliman (2007 — 2010)</i></p>
+					<br />
+					<p>Developer Certification — Responsive Web Design</p>
+					<p><i>freecodecamp.org (2021)</i></p>
+					<br />
+					<p>Certificate of Completion — The Complete Web Developer in 2021: Zero to Mastery</p>
+					<p><i>Udemy (2020-2021)</i></p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Tech Stack</h2>
+				<div class="content">
+					<p>HTML, CSS, JavaScript, React, NextJS, Astro, Tailwind CSS, Radix UI (shadcn/ui), Figma, GraphQL, Apollo, NodeJS, Express, Redux (Toolkit), Jotai, Strapi, GitHub, Docker, YAML, WordPress, WooCommerce, PHP, Elementor, OpenLiteSpeed (OLS), DigitalOcean</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Resumé</h2>
+				<div class="content">
+					<p>For more information, download my full CV <a href="https://drive.google.com/file/d/1dTm15OREjstRy1gaxlweaXyaHO6Kt_vn/view" target="_blank">here</a></p>
 				</div>
 			</section>
 		</main>
@@ -90,6 +102,11 @@ import Hero from '../components/Hero.astro';
 
 	.content {
 		grid-column: 2 / 4;
+		space
+	}
+
+	.content p {
+		margin-bottom: 0.5em;
 	}
 
 	.content :global(a) {
