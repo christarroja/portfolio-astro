@@ -24,7 +24,7 @@ Demo
 https://pokedex-graphql-two.vercel.app
 
 Repository
-https://github.com/getakalabs-christarroja/pokedex-graphql
+https://github.com/christarroja/pokedex-graphql
 
 Figma design by Emmanuel García
 https://www.figma.com/community/file/893705420616737018
